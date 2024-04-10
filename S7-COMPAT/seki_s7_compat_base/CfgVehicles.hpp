@@ -113,15 +113,35 @@ class CfgVehicles
 		threat[] = {1,1,0.5};
 	};
 	class B_Respawn_TentDome_F;
-	class S7_Medical_Tent : B_Respawn_TentDome_F
+	class S7_Medical_Tent_Backpack : B_Respawn_TentDome_F
 	{
+		displayName = "S7 Medical Tent";
+		author = "SekiGamer";
 		class assembleInfo
 		{
 			primary=1;
 			base="";
-			assembleTo="Land_ConnectorTent_01_NATO_cross_F";
-			displayName="Medical Tent";
+			assembleTo="S7_Medical_Tent";
+			displayName="Medical Tent Backpack";
 			dissasembleTo[]={};
 		};
-	}
+	};
+	class Land_ConnectorTent_01_base_F;
+	class Land_ConnectorTent_01_NATO_cross_F : Land_ConnectorTent_01_base_F{};
+	class S7_Medical_Tent : Land_ConnectorTent_01_NATO_cross_F {
+		scope=1;
+		displayName = "S7 Medical Tent";
+		author = "SekiGamer";
+		class assembleInfo
+		{
+			primary=1;
+			base="";
+			assembleTo="";
+			displayName="S7 Medical Tent";
+			dissasembleTo[]=
+			{
+				"S7_Medical_Tent_Backpack"
+			};
+		};
+	};
 };
