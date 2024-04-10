@@ -112,4 +112,16 @@ class CfgVehicles
         type = 2;
 		threat[] = {1,1,0.5};
 	};
+	class B_Respawn_TentDome_F;
+	class S7_Medical_Tent : B_Respawn_TentDome_F
+	{
+		class assembleInfo
+		{
+			primary=1;
+			base="";
+			assembleTo="Land_ConnectorTent_01_NATO_cross_F";
+			displayName="Medical Tent";
+			dissasembleTo[]={};
+		};
+	}
 };
