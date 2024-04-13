@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.6
+- Added S7 Medical tent
+- Added Lamps/Lights to Fortify (@KillerInThaMist)
+
 ## 1.5
 - Made Hatchet H-60 required
 - Added fix for AI not locking onto Hatchet helicopters
