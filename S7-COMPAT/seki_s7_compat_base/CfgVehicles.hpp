@@ -115,23 +115,23 @@ class CfgVehicles
 	class B_Respawn_TentDome_F;
 	class S7_Medical_Tent_Backpack : B_Respawn_TentDome_F
 	{
-		displayName = "S7 Medical Tent";
+		displayName = "S7 Medical Tent Backpack";
 		author = "SekiGamer";
 		class assembleInfo
 		{
 			primary=1;
 			base="";
 			assembleTo="S7_Medical_Tent";
-			displayName="Medical Tent Backpack";
+			displayName="Medical Tent";
 			dissasembleTo[]={};
 		};
 	};
-	class Land_ConnectorTent_01_base_F;
-	class Land_ConnectorTent_01_NATO_cross_F : Land_ConnectorTent_01_base_F{};
+	class Land_ConnectorTent_01_NATO_cross_F;
 	class S7_Medical_Tent : Land_ConnectorTent_01_NATO_cross_F {
 		scope=1;
 		displayName = "S7 Medical Tent";
 		author = "SekiGamer";
+		attendant = 1;
 		class assembleInfo
 		{
 			primary=1;
