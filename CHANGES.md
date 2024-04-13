@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## 1.6
 - Added S7 Medical tent
 - Added Lamps/Lights to Fortify (@KillerInThaMist)
+- Changed Hatchet hitpoints by another 50 points
 
 ## 1.5
 - Made Hatchet H-60 required

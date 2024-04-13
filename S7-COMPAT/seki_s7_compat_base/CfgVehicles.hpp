@@ -108,7 +108,7 @@ class CfgVehicles
 	class Heli_Transport_01_base_F;
 	class vtx_H60_base : Heli_Transport_01_base_F 
 	{
-		armor = 200;
+		armor = 150;
         type = 2;
 		threat[] = {1,1,0.5};
 	};
