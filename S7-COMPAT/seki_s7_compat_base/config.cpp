@@ -30,4 +30,3 @@ class CfgPatches
 #include "CfgCloudlets.hpp"
 #include "CfgVehicles.hpp"
 #include "ACEX_Fortify_Presets.hpp"
-#include "S7_Medical_Tent.hpp"
