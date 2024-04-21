@@ -2,8 +2,11 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.6.1
+- Fix to make S7 Medical Tent a Proper medical facility
+
 ## 1.6
-- Added S7 Medical tent
+- Added S7 Medical Tent
 - Added Lamps/Lights to Fortify (@KillerInThaMist)
 - Changed Hatchet hitpoints by another 50 points
 
